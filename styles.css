@@ -205,3 +205,10 @@ footer {
     text-align: center;
     padding: 20px;
 }
+.program-details ul {
+    list-style-type: none; /* Removes the dots */
+    padding-left: 0; /* Aligns text properly */
+}
+.program-item li{
+    list-style-type: none;
+}
