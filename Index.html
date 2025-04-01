@@ -76,13 +76,22 @@
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
             
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="Enter your 10-digit number">
+            
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
+                <select id="program" name="program" required>
+                    <option value="" disabled selected>Select a program</option>
+                    <option value="basic-advance">Basic to Advance 45 Days Bootcamp</option>
+                    <option value="personal-mentorship">Personal Mentorship</option>
+                </select>
+                
             
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-            
-                <button type="submit" class="btn">Send Message</button>
+                <button type="submit" class="btn">CLICK TO SUBMIT & WE'LL CALLBACK
+
+                </button>
             </form>
             
         </div>
@@ -91,7 +100,10 @@
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2>About Us</h2>
+            <h2>About Us
+                <BR>
+                    MENTOR- ER.BHUPINDER SINGH 
+            </h2>
             <p>We are a premier skill development and trading community in India, guiding individuals from basic to advanced levels of trading. Our mission is to empower you with the knowledge and strategies needed to succeed in the stock market.</p>
         </div>
     </section>
